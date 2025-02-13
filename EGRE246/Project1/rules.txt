@@ -1,0 +1,32 @@
+8 ← number of row
+20 ← number of columns
+28 ← random number generator seed s (exit program with message if s < 0)
+75 ← percentage probability p of fire burning a neighbor (exit program with message if p < 0)
+T 5 8 ← place a tree at row 5, column 8
+A ← place a tree in all squares of the forest
+F 3 4 ← row 3 column 4 is on fire
+E 1 12 ← row 1 column 12 is empty
+E 2 12 ← row 2 column 12 is empty
+E 3 12 ← row 3 column 12 is empty
+E 4 12 etc.
+E 4 13
+E 4 14
+E 5 12
+E 5 15
+E 6 12
+E 1 16
+E 2 16
+E 3 16
+E 4 16
+E 7 1
+E 7 2
+E 7 3
+E 7 4
+3
+E 8 3
+Q ← quit inputting values i.e. the end of input
+Note that spaces are required between values and all letter commands must be upper case.
+A latter command will essentially “overrule” a previous one, i.e. the sequence
+T 6 7
+E 6 7
+F 6 7

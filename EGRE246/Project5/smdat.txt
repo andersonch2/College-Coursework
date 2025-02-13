@@ -1,0 +1,17 @@
+tra
+ldc
+DBG
+% Comment this is a comment this is a comment comment
+ldc 3
+DBG
+ldc 4
+%Another comment!
+ADD
+DBG
+INP
+DBG
+MUL
+DBG
+OUT
+tra
+halt
